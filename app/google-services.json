@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647088938698",
+    "firebase_url": "https://learning-point-9e397.firebaseio.com",
+    "project_id": "learning-point-9e397",
+    "storage_bucket": "learning-point-9e397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647088938698:android:aebc50cdfe5481a8fcde33",
+        "android_client_info": {
+          "package_name": "com.example.learningpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647088938698-md9ouiunkskpndpgg98ant2t5jj706d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHkBkm8w0kLfft71WToUzbSPiMF2Pf1to"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647088938698-md9ouiunkskpndpgg98ant2t5jj706d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
