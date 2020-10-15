@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:background="#ebedf0"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Quiz Activity."
+        android:textColor="#ff6f00"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:text="C"
+                android:textSize="50dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#2a93bd"
+                android:textColor="#e6e6e6"/>
+
+            <Button
+                android:id="@+id/cpp"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:text="C++"
+                android:textSize="50dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#2a93bd"
+                android:textColor="#e6e6e6"/>
+            <Button
+                android:id="@+id/java"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:text="Java"
+                android:textSize="50dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#2a93bd"
+                android:textColor="#e6e6e6"/>
+
+            <Button
+                android:id="@+id/python"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:text="Python"
+                android:textSize="50dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#2a93bd"
+                android:textColor="#e6e6e6"/>
+            <Button
+                android:id="@+id/sql"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:text="SQL"
+                android:textSize="50dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#2a93bd"
+                android:textColor="#e6e6e6"/>
+        </LinearLayout>
+</LinearLayout>
